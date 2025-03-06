@@ -218,6 +218,7 @@ while run==True:
                 rep=rep.replace(" ","").lower()
                 if rep != "o":
                     continu=False
+                    clear()
             #si le tableau est pareil il est donc inutile de continuer le programme car rien ne changera plus
             if plateau==False:
                 input("\nAppuyez sur une touche pour revenir au menu\n>>> ")
